@@ -45,7 +45,30 @@
             </look>
           </lookList>
           <soundList/>
-          <scriptList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="EnableBackgroundModeBrick">
+                  <brickId>ce00ca77-0e12-4739-aef5-2275e15049cb</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VALUE_1">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>Instict Killer</value>
+                    </formula>
+                    <formula category="VALUE_2">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>O jogo está rodando em segundo plano</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>97ed5f07-af59-4664-93a7-2fd040255765</scriptId>
+            </script>
+          </scriptList>
           <nfcTagList/>
           <userVariables/>
           <userLists/>
@@ -152,15 +175,15 @@
                   <brickId>29fb7a55-9e44-485c-8e76-0f8b4b666bc7</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -183,15 +206,15 @@
                   <brickId>cbf9d48d-c44f-4afd-8c36-fe85acfd74a4</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -492,15 +515,15 @@
                       <brickId>6387ccc8-7ec0-4c99-96c9-7914474b74a7</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>USER_VARIABLE</type>
-                          <value>qplayers</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>USER_VARIABLE</type>
+                          <value>qplayers</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -957,15 +980,15 @@
                           <brickId>c0fd4186-f7c3-4fc4-b436-d82b7f100ad7</brickId>
                           <commentedOut>false</commentedOut>
                           <formulaList>
-                            <formula category="FIREBASE_VALUE">
-                              <additionalChildren/>
-                              <type>USER_VARIABLE</type>
-                              <value>pos1x</value>
-                            </formula>
                             <formula category="FIREBASE_ID">
                               <additionalChildren/>
                               <type>STRING</type>
                               <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                            </formula>
+                            <formula category="FIREBASE_VALUE">
+                              <additionalChildren/>
+                              <type>USER_VARIABLE</type>
+                              <value>pos1x</value>
                             </formula>
                             <formula category="FIREBASE_KEY">
                               <additionalChildren/>
@@ -988,15 +1011,15 @@
                           <brickId>2e1f5b6b-b6e8-45ba-a8dd-a966fd8600fb</brickId>
                           <commentedOut>false</commentedOut>
                           <formulaList>
-                            <formula category="FIREBASE_VALUE">
-                              <additionalChildren/>
-                              <type>USER_VARIABLE</type>
-                              <value>pos1y</value>
-                            </formula>
                             <formula category="FIREBASE_ID">
                               <additionalChildren/>
                               <type>STRING</type>
                               <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                            </formula>
+                            <formula category="FIREBASE_VALUE">
+                              <additionalChildren/>
+                              <type>USER_VARIABLE</type>
+                              <value>pos1y</value>
                             </formula>
                             <formula category="FIREBASE_KEY">
                               <additionalChildren/>
@@ -1294,15 +1317,15 @@
                           <brickId>a58c4f07-3133-4c73-8887-b18434d7fdb0</brickId>
                           <commentedOut>false</commentedOut>
                           <formulaList>
-                            <formula category="FIREBASE_VALUE">
-                              <additionalChildren/>
-                              <type>USER_VARIABLE</type>
-                              <value>pos2y</value>
-                            </formula>
                             <formula category="FIREBASE_ID">
                               <additionalChildren/>
                               <type>STRING</type>
                               <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                            </formula>
+                            <formula category="FIREBASE_VALUE">
+                              <additionalChildren/>
+                              <type>USER_VARIABLE</type>
+                              <value>pos2y</value>
                             </formula>
                             <formula category="FIREBASE_KEY">
                               <additionalChildren/>
@@ -1337,15 +1360,15 @@
                           <brickId>7ea60796-d142-4042-90b3-38aa2ad6550c</brickId>
                           <commentedOut>false</commentedOut>
                           <formulaList>
-                            <formula category="FIREBASE_VALUE">
-                              <additionalChildren/>
-                              <type>USER_VARIABLE</type>
-                              <value>pos2x</value>
-                            </formula>
                             <formula category="FIREBASE_ID">
                               <additionalChildren/>
                               <type>STRING</type>
                               <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                            </formula>
+                            <formula category="FIREBASE_VALUE">
+                              <additionalChildren/>
+                              <type>USER_VARIABLE</type>
+                              <value>pos2x</value>
                             </formula>
                             <formula category="FIREBASE_KEY">
                               <additionalChildren/>
@@ -1607,15 +1630,15 @@
                       <brickId>a9f672f5-1bac-4afc-b08b-dfdb27d36208</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>USER_VARIABLE</type>
-                          <value>direcao1</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>USER_VARIABLE</type>
+                          <value>direcao1</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -1827,15 +1850,15 @@
                       <brickId>ff59f53c-d9e8-4a37-bdcd-65ffd14b9dca</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>USER_VARIABLE</type>
-                          <value>direcao2</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>USER_VARIABLE</type>
+                          <value>direcao2</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -1961,25 +1984,25 @@
                   <brickId>c9936443-4cee-4c27-b0d5-c455918f3913</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>70</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>#FF0000</value>
                     </formula>
-                    <formula category="X_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>600</value>
-                    </formula>
                     <formula category="SIZE">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>60</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>70</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>600</value>
                     </formula>
                   </formulaList>
                   <userVariable reference="../../../../../../../../scene/objectList/object[2]/scriptList/script[2]/brickList/brick/userVariable"/>
@@ -2042,15 +2065,15 @@
                   <brickId>57e25919-7ffa-400d-96f7-36705f88994e</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>1</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>1</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -2743,15 +2766,15 @@
                   <brickId>ee101fa6-12d4-4849-8db0-43367da0023e</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>qplayersatual</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>USER_VARIABLE</type>
+                      <value>qplayersatual</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -2925,15 +2948,15 @@
                   <brickId>115f62c3-0ea8-4ea9-b428-d4ea3bd0a165</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>qplayersatual</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>USER_VARIABLE</type>
+                      <value>qplayersatual</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -3369,7 +3392,7 @@
         </object>
       </objectList>
     </scene>
-    <scene>
+    <scene sceneId="f078f852-a364-4734-a159-cf07c71d1958">
       <name>jogo</name>
       <objectList>
         <object type="Sprite" spriteId="339ddc1f-e049-43cd-a36e-d8e822476a99" name="Fundo">
@@ -3724,15 +3747,15 @@
                                             <brickId>0d952b28-316a-405b-aee0-63da483e54eb</brickId>
                                             <commentedOut>false</commentedOut>
                                             <formulaList>
-                                              <formula category="FIREBASE_VALUE">
-                                                <additionalChildren/>
-                                                <type>USER_VARIABLE</type>
-                                                <value>pos1x</value>
-                                              </formula>
                                               <formula category="FIREBASE_ID">
                                                 <additionalChildren/>
                                                 <type>STRING</type>
                                                 <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                                              </formula>
+                                              <formula category="FIREBASE_VALUE">
+                                                <additionalChildren/>
+                                                <type>USER_VARIABLE</type>
+                                                <value>pos1x</value>
                                               </formula>
                                               <formula category="FIREBASE_KEY">
                                                 <additionalChildren/>
@@ -3755,15 +3778,15 @@
                                             <brickId>6b797c99-df0d-4093-b485-ee736a0844df</brickId>
                                             <commentedOut>false</commentedOut>
                                             <formulaList>
-                                              <formula category="FIREBASE_VALUE">
-                                                <additionalChildren/>
-                                                <type>USER_VARIABLE</type>
-                                                <value>pos1y</value>
-                                              </formula>
                                               <formula category="FIREBASE_ID">
                                                 <additionalChildren/>
                                                 <type>STRING</type>
                                                 <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                                              </formula>
+                                              <formula category="FIREBASE_VALUE">
+                                                <additionalChildren/>
+                                                <type>USER_VARIABLE</type>
+                                                <value>pos1y</value>
                                               </formula>
                                               <formula category="FIREBASE_KEY">
                                                 <additionalChildren/>
@@ -4082,15 +4105,15 @@
                                                       <brickId>0b1235c3-c789-407f-95e8-02d2363c75b5</brickId>
                                                       <commentedOut>false</commentedOut>
                                                       <formulaList>
-                                                        <formula category="FIREBASE_VALUE">
-                                                          <additionalChildren/>
-                                                          <type>USER_VARIABLE</type>
-                                                          <value>pos2y</value>
-                                                        </formula>
                                                         <formula category="FIREBASE_ID">
                                                           <additionalChildren/>
                                                           <type>STRING</type>
                                                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                                                        </formula>
+                                                        <formula category="FIREBASE_VALUE">
+                                                          <additionalChildren/>
+                                                          <type>USER_VARIABLE</type>
+                                                          <value>pos2y</value>
                                                         </formula>
                                                         <formula category="FIREBASE_KEY">
                                                           <additionalChildren/>
@@ -4125,15 +4148,15 @@
                                                       <brickId>ccdb5ea3-869e-4ecb-8937-d369ddd287fb</brickId>
                                                       <commentedOut>false</commentedOut>
                                                       <formulaList>
-                                                        <formula category="FIREBASE_VALUE">
-                                                          <additionalChildren/>
-                                                          <type>USER_VARIABLE</type>
-                                                          <value>pos2x</value>
-                                                        </formula>
                                                         <formula category="FIREBASE_ID">
                                                           <additionalChildren/>
                                                           <type>STRING</type>
                                                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                                                        </formula>
+                                                        <formula category="FIREBASE_VALUE">
+                                                          <additionalChildren/>
+                                                          <type>USER_VARIABLE</type>
+                                                          <value>pos2x</value>
                                                         </formula>
                                                         <formula category="FIREBASE_KEY">
                                                           <additionalChildren/>
@@ -5219,15 +5242,15 @@
                       <brickId>e70b9dc7-abb8-4856-a5f3-0accdc95c8e7</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>USER_VARIABLE</type>
-                          <value>direcao1</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>USER_VARIABLE</type>
+                          <value>direcao1</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -5439,15 +5462,15 @@
                       <brickId>f905995d-393e-44cb-bb3d-cca65e393b0d</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>USER_VARIABLE</type>
-                          <value>direcao2</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>USER_VARIABLE</type>
+                          <value>direcao2</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -5719,15 +5742,15 @@
                       <brickId>27c8ae1a-82ac-4ca5-af5f-314a8ed2a3df</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -5761,15 +5784,15 @@
                       <brickId>359aa8ef-1fd4-4c96-b65d-f6f74f971fcc</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>0</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -5815,15 +5838,15 @@
                       <brickId>42829f91-0e03-4e12-a2a7-e118c19c7bce</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>1</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>1</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -5857,15 +5880,15 @@
                       <brickId>3845e040-f514-4172-aa6c-ff3a0df3a563</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>NUMBER</type>
-                          <value>0</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>NUMBER</type>
+                          <value>0</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -6436,15 +6459,20 @@
                   <brickId>9684bade-aca7-427b-8060-a0d2ee49dd99</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>320</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>320</value>
                     </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
@@ -6455,11 +6483,6 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
@@ -6477,25 +6500,25 @@
                   <brickId>44ce1c61-1270-4fef-9dd8-288d9a5ca2f7</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>320</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>#0015FF</value>
                     </formula>
-                    <formula category="X_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>50</value>
-                    </formula>
                     <formula category="SIZE">
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>120.0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>320</value>
+                    </formula>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>50</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
@@ -6513,15 +6536,15 @@
                   <brickId>c240f1c5-6074-460a-909e-eb852f33feb1</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>0</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -6544,15 +6567,15 @@
                   <brickId>99d18258-dd28-44ba-93f5-6c4c962a948a</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>0</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -6622,15 +6645,15 @@
                       <brickId>0252d68c-d062-4d18-80da-a52c4f3dcddb</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>USER_VARIABLE</type>
-                          <value>placar1</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>USER_VARIABLE</type>
+                          <value>placar1</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -6739,15 +6762,15 @@
                       <brickId>9924af84-0cee-42c2-9a42-b4fee5a66ea8</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>USER_VARIABLE</type>
-                          <value>placar2</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>USER_VARIABLE</type>
+                          <value>placar2</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -6881,15 +6904,15 @@
                   <brickId>c21e81ff-fd7d-43a0-953e-9be003becc15</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>0</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -7001,15 +7024,15 @@
                           <brickId>9a7fcbb5-85f4-4563-b8f6-d7306783cb6c</brickId>
                           <commentedOut>false</commentedOut>
                           <formulaList>
-                            <formula category="FIREBASE_VALUE">
-                              <additionalChildren/>
-                              <type>NUMBER</type>
-                              <value>0</value>
-                            </formula>
                             <formula category="FIREBASE_ID">
                               <additionalChildren/>
                               <type>STRING</type>
                               <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                            </formula>
+                            <formula category="FIREBASE_VALUE">
+                              <additionalChildren/>
+                              <type>NUMBER</type>
+                              <value>0</value>
                             </formula>
                             <formula category="FIREBASE_KEY">
                               <additionalChildren/>
@@ -7088,15 +7111,15 @@
                           <brickId>24cc4144-2e32-41e7-a9ae-3754843a0df1</brickId>
                           <commentedOut>false</commentedOut>
                           <formulaList>
-                            <formula category="FIREBASE_VALUE">
-                              <additionalChildren/>
-                              <type>NUMBER</type>
-                              <value>0</value>
-                            </formula>
                             <formula category="FIREBASE_ID">
                               <additionalChildren/>
                               <type>STRING</type>
                               <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                            </formula>
+                            <formula category="FIREBASE_VALUE">
+                              <additionalChildren/>
+                              <type>NUMBER</type>
+                              <value>0</value>
                             </formula>
                             <formula category="FIREBASE_KEY">
                               <additionalChildren/>
@@ -7328,15 +7351,15 @@
                   <brickId>a25f5053-f3ab-4f71-8e81-8ea3b4c799e8</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>qplayersatual</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>USER_VARIABLE</type>
+                      <value>qplayersatual</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -7380,15 +7403,15 @@
                       <brickId>923161e7-34b0-4814-9b4d-613dab424071</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>USER_VARIABLE</type>
-                          <value>pontos cnf</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>USER_VARIABLE</type>
+                          <value>pontos</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -7434,15 +7457,15 @@
                       <brickId>4fbf55c5-1b83-48fe-9a75-799b5df28c9e</brickId>
                       <commentedOut>false</commentedOut>
                       <formulaList>
-                        <formula category="FIREBASE_VALUE">
-                          <additionalChildren/>
-                          <type>USER_VARIABLE</type>
-                          <value>pontos cnf</value>
-                        </formula>
                         <formula category="FIREBASE_ID">
                           <additionalChildren/>
                           <type>STRING</type>
                           <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                        </formula>
+                        <formula category="FIREBASE_VALUE">
+                          <additionalChildren/>
+                          <type>USER_VARIABLE</type>
+                          <value>pontos</value>
                         </formula>
                         <formula category="FIREBASE_KEY">
                           <additionalChildren/>
@@ -7502,6 +7525,17 @@
                     </brick>
                   </ifBranchBricks>
                 </brick>
+                <brick type="WaitBrick">
+                  <brickId>8bbf09ec-69e4-417b-b4b7-be81b439183c</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="TIME_TO_WAIT_IN_SECONDS">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0.5</value>
+                    </formula>
+                  </formulaList>
+                </brick>
                 <brick type="SceneStartBrick">
                   <brickId>c59371c8-8a5f-467b-8366-687d642e4cc1</brickId>
                   <commentedOut>false</commentedOut>
@@ -7535,6 +7569,17 @@
               <commentedOut>false</commentedOut>
               <scriptId>8f72ea2f-a849-4ebc-a560-d47c46543122</scriptId>
             </org.catrobat.catroid.content.BackPressedScript>
+            <org.catrobat.catroid.content.ExitProjectScript type="ExitProjectScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="BroadcastBrick">
+                  <brickId>6b5bfe8d-003c-4761-b927-dc7490da798c</brickId>
+                  <commentedOut>false</commentedOut>
+                  <broadcastMessage>sair da sala</broadcastMessage>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>7cfd7837-26fc-4ff7-9472-d36aab907f57</scriptId>
+            </org.catrobat.catroid.content.ExitProjectScript>
           </scriptList>
           <nfcTagList/>
           <userVariables/>
@@ -7736,10 +7781,15 @@
                   </formulaList>
                   <userVariable reference="../../../../../../../../scene[2]/objectList/object[16]/scriptList/org.catrobat.catroid.content.BackPressedScript/brickList/brick/userVariable"/>
                 </brick>
-                <brick type="BroadcastBrick">
-                  <brickId>1e22becc-7889-4b3c-aac3-29148d3b5836</brickId>
+                <brick type="BroadcastWaitBrick">
+                  <brickId>0760ed66-dad2-4219-a941-9ee2f36df001</brickId>
                   <commentedOut>false</commentedOut>
                   <broadcastMessage>sair da sala</broadcastMessage>
+                </brick>
+                <brick type="DisableBackgroundModeBrick">
+                  <brickId>dc15d2ef-1ef3-4641-9432-bad27c7feab4</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList/>
                 </brick>
               </brickList>
               <commentedOut>false</commentedOut>
@@ -8329,15 +8379,15 @@
                   <brickId>4bc2c77e-08e6-484a-a19c-24b41394cfc0</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>pontos cnf</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>USER_VARIABLE</type>
+                      <value>pontos cnf</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -8360,15 +8410,15 @@
                   <brickId>001e37ff-1f4f-45af-ac44-86591296a81c</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>velocidade cnf</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>USER_VARIABLE</type>
+                      <value>velocidade cnf</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -8391,15 +8441,15 @@
                   <brickId>050320d3-f18f-488a-9c39-abd31140194b</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="FIREBASE_VALUE">
-                      <additionalChildren/>
-                      <type>USER_VARIABLE</type>
-                      <value>visao cnf</value>
-                    </formula>
                     <formula category="FIREBASE_ID">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>https://pocket-code-bb94f-default-rtdb.firebaseio.com/</value>
+                    </formula>
+                    <formula category="FIREBASE_VALUE">
+                      <additionalChildren/>
+                      <type>USER_VARIABLE</type>
+                      <value>visao cnf</value>
                     </formula>
                     <formula category="FIREBASE_KEY">
                       <additionalChildren/>
@@ -8444,15 +8494,20 @@
                   <brickId>6f22e416-7138-46fc-ac28-ed37728798b9</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>205</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>205</value>
                     </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
@@ -8463,11 +8518,6 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
@@ -8652,15 +8702,20 @@
                   <brickId>0add4fc0-c492-40e1-ac13-cbb147e9e090</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>113</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>113</value>
                     </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
@@ -8671,11 +8726,6 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
@@ -8860,15 +8910,20 @@
                   <brickId>1fd333c7-084f-4bd7-a918-74a5b601390e</brickId>
                   <commentedOut>false</commentedOut>
                   <formulaList>
-                    <formula category="Y_POSITION">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>40</value>
-                    </formula>
                     <formula category="COLOR">
                       <additionalChildren/>
                       <type>STRING</type>
                       <value>#FF0000</value>
+                    </formula>
+                    <formula category="SIZE">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>120.0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>40</value>
                     </formula>
                     <formula category="X_POSITION">
                       <additionalChildren/>
@@ -8879,11 +8934,6 @@
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
-                    </formula>
-                    <formula category="SIZE">
-                      <additionalChildren/>
-                      <type>NUMBER</type>
-                      <value>120.0</value>
                     </formula>
                   </formulaList>
                   <userVariable type="UserVariable" serialization="custom">
