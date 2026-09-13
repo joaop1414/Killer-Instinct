@@ -1,4 +1,4 @@
-⚔️ Killer Instinct (NewCatroid)
+⚔️ Killer Instinct
 Um jogo de batalha multiplayer focado na disputa direta entre amigos, inspirado na dinâmica de sobrevivência do modo Matar ou Morrer (EHR) de Among Us.
 
 O projeto foi desenvolvido no NewCatroid e teve seu lançamento inicial em 12/09.
