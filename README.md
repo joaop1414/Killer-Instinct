@@ -37,6 +37,11 @@ Recursos e melhorias planejados para as futuras versões:
 
 - [ ] **Salas Públicas:** Implementação de um sistema para encontrar e entrar em partidas públicas facilmente.
 - [ ] **Suporte Multi-idioma:** Adição de suporte ao idioma Inglês (no mínimo).
+- [ ] **Chat:** Implementação de um chat para os jogadores poderem conversar entre si
+- [ ] **Bloquear salas cheias:** Adição para bloquear de 2 ou mais jogadores entrarem como player 2
+- [ ] **Expulsar jogadores:** Adição para os anfitriões poderem expulsar jogadores
+- [ ] **Partidas públicas:** Sistema de encontrar partidas públicas
+- [ ] **Nome:** Ser possível dos jogadores poderem se indentificar
 
 ---
 
