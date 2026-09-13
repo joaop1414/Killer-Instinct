@@ -36,11 +36,11 @@ Todos os sprites e recursos visuais do jogo foram desenhados e criados do zero p
 Recursos e melhorias planejados para as futuras versões:
 
 - [ ] **Suporte Multi-idioma:** Adição de suporte ao idioma Inglês (no mínimo).
-- [ ] **Chat:** Implementação de um chat para os jogadores poderem conversar entre si
-- [ ] **Bloquear salas cheias:** Adição para bloquear de 2 ou mais jogadores entrarem como player 2
-- [ ] **Expulsar jogadores:** Adição para os anfitriões poderem expulsar jogadores
-- [ ] **Partidas públicas:** Sistema de encontrar partidas públicas
-- [ ] **Nome:** Ser possível dos jogadores poderem se indentificar
+- [ ] **Chat:** Implementação de um chat para os jogadores poderem conversar entre si no lobby.
+- [ ] **Bloquear salas cheias:** Adição para bloquear de 2 ou mais jogadores entrarem como player 2.
+- [ ] **Expulsar jogadores:** Adição para os anfitriões poderem expulsar jogadores.
+- [ ] **Partidas públicas:** Sistema de encontrar partidas públicas.
+- [ ] **Nome:** Ser possível dos jogadores poderem se indentificar.
 
 ---
 
