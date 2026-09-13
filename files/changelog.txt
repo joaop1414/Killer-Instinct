@@ -1,2 +1,3 @@
 Correção de não ser mais possivel ir para fora da tela
 Agora dá para pressionar o botão de voltar para poder sair da tela de configurações
+Agora o jogo salva as configurações da sala quando você sai da tela das configurações
