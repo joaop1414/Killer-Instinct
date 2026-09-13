@@ -1,0 +1,2 @@
+Correção de não ser mais possivel ir para fora da tela
+Agora dá para pressionar o botão de voltar para poder sair da tela de configurações
