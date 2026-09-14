@@ -39,7 +39,7 @@ Recursos e melhorias planejados para as futuras versões:
 - [ ] **Chat:** Implementação de um chat para os jogadores poderem conversar entre si no lobby.
 - [ ] **Bloquear salas cheias:** Adição para bloquear de 2 ou mais jogadores entrarem como player 2.
 - [ ] **Expulsar jogadores:** Adição para os anfitriões poderem expulsar jogadores.
-- [ ] **Partidas públicas:** Sistema de encontrar partidas públicas.
+- [x] **Partidas públicas:** Sistema de encontrar partidas públicas.
 - [ ] **Nome:** Ser possível dos jogadores poderem se indentificar.
 
 ---
