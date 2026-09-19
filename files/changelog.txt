@@ -1,11 +1,7 @@
-<<<<<<< HEAD
-Agora o jogo não roda em segundo plano, que antes ele rodava para tentar sair da sala corretamente, mas o meu sistema não deu muito certo
-Mudado o lugar onde fica o texto indicando que a sala era inválida
-Adicionado o indicador da versão na tela inicial
-Adicionado o sistema de salas públicas
-Adicionado sistema de nomes para os jogadores
-=======
-Correção de não ser mais possivel ir para fora da tela
-Agora dá para pressionar o botão de voltar para poder sair da tela de configurações
-Agora o jogo salva as configurações da sala quando você sai da tela das configurações
->>>>>>> ccc22ab725fe8bbac322a0773b1a274916425dff
+Corrigido a cor dos olhos dos personagens na tela de vitória
+Feito o sistema de câmera
+mudança no formato de versão (antes era X.X.X agora é XXX sem usar os pontos)
+Adicionado um sistema de detectar se o seu jogo está atualizado
+Corrigido o bug do analogico do player 2 (vermelho) não "obedecer" a direção que o jogador quer
+Corrigido o bug da camera do player 2 não querer funcionar
+Corrigido o bug das configurações padrões não quererem se aplicar
