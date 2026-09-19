@@ -380,12 +380,7 @@
           <userDefinedBrickList/>
         </object>
         <object type="Sprite" spriteId="4ddb10cb-aa13-4568-9631-47c5479bb171" name="mostrar versão atual">
-          <lookList>
-            <look fileName="mostrar versão atual.png" lookId="69fc8502-a932-4fdc-9c43-689de2e20831" name="mostrar versão atual">
-              <isWebRequest>false</isWebRequest>
-              <valid>true</valid>
-            </look>
-          </lookList>
+          <lookList/>
           <soundList/>
           <scriptList>
             <script type="StartScript" posX="0.0" posY="0.0">
@@ -7208,7 +7203,7 @@ E a mais recente é a: </value>
                               <rightChild>
                                 <additionalChildren/>
                                 <type>NUMBER</type>
-                                <value>2</value>
+                                <value>10</value>
                               </rightChild>
                               <type>OPERATOR</type>
                               <value>MULT</value>
@@ -10723,7 +10718,7 @@ E a mais recente é a: </value>
                       <rightChild>
                         <additionalChildren/>
                         <type>NUMBER</type>
-                        <value>350</value>
+                        <value>200</value>
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
@@ -10732,6 +10727,22 @@ E a mais recente é a: </value>
                       <additionalChildren/>
                       <type>NUMBER</type>
                       <value>205</value>
+                    </formula>
+                  </formulaList>
+                </brick>
+                <brick type="NoteBrick">
+                  <brickId>d07c7903-7673-40f1-8c5f-2e634791d390</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="NOTE">
+                      <additionalChildren/>
+                      <rightChild>
+                        <additionalChildren/>
+                        <type>NUMBER</type>
+                        <value>350</value>
+                      </rightChild>
+                      <type>OPERATOR</type>
+                      <value>MINUS</value>
                     </formula>
                   </formulaList>
                 </brick>
@@ -10788,7 +10799,7 @@ E a mais recente é a: </value>
                       <rightChild>
                         <additionalChildren/>
                         <type>NUMBER</type>
-                        <value>200</value>
+                        <value>350</value>
                       </rightChild>
                       <type>OPERATOR</type>
                       <value>MINUS</value>
