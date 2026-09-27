@@ -1,0 +1,8 @@
+Adição do modo "Tamanho de visão aleatório" que fica variando a visão em cada 5 a 5 segundos, funciona com versões antigas caso não consigam atualizar
+Adição do modo "Velocidade aleatória" que fica variando a velocidade do jogador em cada 5 a 5 segundos, funciona com versões antigas caso não consigam atualizar
+Adição do modo "inverter controles" que inverte os controles do jogador em cada 5 a 5 segundos, funciona com versões antigas caso não consigam atualizar
+Corrigido o bug da tela ficar cinza não seguindo a câmera
+Adição das configurações do jogo
+Adição do controle do personagem via botões (não recomendado a usar ainda)
+Adição do chat mas somente no lobby
+Adição de um mapa novo
